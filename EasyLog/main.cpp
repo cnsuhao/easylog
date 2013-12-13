@@ -1,5 +1,5 @@
 #include "EasyLog.h"
 
 int main(){
-	EasyLog::Instance()->WriteLog("Run...");
+	EasyLog::Inst()->Log("Run...");
 }
